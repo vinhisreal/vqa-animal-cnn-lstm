@@ -148,6 +148,7 @@ This project is licensed under the MIT License.
 You are free to use, modify, and distribute this code for personal or commercial purposes, as long as proper credit is given.
 
 ## Author
-Developed by Wzinh
-GitHub: vinhisreal
+Developed by Wzinh<br>
+GitHub: vinhisreal<br>
 Contact: vinhquang2610345@gmail.com
+
