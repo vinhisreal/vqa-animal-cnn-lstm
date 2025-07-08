@@ -90,13 +90,6 @@ Optional arguments:
 ## Evaluation
 ## 🔍 Model Comparison Summary
 
-| Model        | Parameters  | Training Time (s) | BLEU Score | ROUGE-L |
-|--------------|-------------|-------------------|------------|----------|
-| CNN + LSTM   | 10,253,552  | 152               | 0.320      | 0.507    |
-| ResNet18     | 12,789,001  | 161               | 0.341      | 0.533    |
-| ResNet50     | 23,648,920  | 183               | 0.358      | 0.551    |
-| DenseNet121  | 14,301,002  | 177               | 0.372      | 0.567    |
-
 _See visual result:_
 
 ![Model Comparison](https://res.cloudinary.com/vinhisreal/image/upload/v1751709334/score_f01wjs.png)
