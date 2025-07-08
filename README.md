@@ -17,7 +17,6 @@ The system supports multiple CNN backbones and uses an LSTM decoder (with Luong 
 You can install all required libraries using requirements.txt:
     ```bash
     pip install -r requirements.txt
-    ```
 ### Alternatively, install them manually:
     ```bash
     pip install torch torchvision scikit-learn nltk pandas matplotlib pillow rouge-score
