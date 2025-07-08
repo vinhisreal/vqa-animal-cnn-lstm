@@ -9,23 +9,23 @@ The system supports multiple CNN backbones and uses an LSTM decoder (with Luong 
 
 ## Installation
 ### Clone the repository:
-    ```bash
+    
     git clone https://github.com/vinhisreal/vqa-animal-cnn-lstm.git
     cd vqa-animal-cnn-lstm
-    ```
+    
 ### Install Dependencies
 You can install all required libraries using requirements.txt:
     
     pip install -r requirements.txt
     
 ### Alternatively, install them manually:
-    ```bash
+    
     pip install torch torchvision scikit-learn nltk pandas matplotlib pillow rouge-score
-    ```
 
+    
 ## Dataset Format
 The cleaned_annotations.json file contains image names mapped to questions and answers:
-    ```json
+    
     "0_0001.jpg": {
         "description": "A black and brown cat being held by its owner",
         "questions": [
@@ -39,7 +39,7 @@ The cleaned_annotations.json file contains image names mapped to questions and a
             "Black and brown."
         ]
     }
-    ```
+    
 Prefix 0_ means the image is in cats/
 
 Prefix 1_ means the image is in dogs/
@@ -60,9 +60,9 @@ All models use the same vocabulary and dataset format.
 ## How to Use
 ### Train All Models
 Run the following script to train all four models:
-    ```bash
+    
     python src/run_training.py
-    ```
+    
 This script will:
 
 Load data
@@ -76,12 +76,11 @@ Evaluate and save results to model_comparison_results.csv
 ### Make Predictions
 Use the CLI script to generate predictions from a given image and question:
 
-    ```bash
     python src/predict.py \
       --image path/to/image.jpg \
       --question "What animal is this?" \
       --model resnet50
-    ```
+    
 Optional arguments:
 
 --model: One of cnn_lstm, resnet18, resnet50, densenet121
